@@ -32,7 +32,7 @@ export default {
   },
   methods: {
      async fetchPlace(){
-      const res = await fetch("http://localhost:8249/api")
+      const res = await fetch("https://finalproject-vhrw.onrender.com/api")
       const data = await res.json()
       console.log(data)
       return data
