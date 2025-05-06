@@ -1,0 +1,240 @@
+:root {
+    --my-radius: 5px;
+    --my-padding: 5px;
+    --primary-bg: #1096c369; /* Same as in the second CSS file */
+    --secondary-bg: #ffffff; /* White background for sections as in second CSS file */
+    --text-color: #333; /* Color for headings (as per the second CSS file) */
+    --highlight-color: #555; /* Hover color for links */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.jpg');
+}
+
+#em{
+    visibility: hidden;
+   }
+   
+nav {
+    position: fixed;
+    background: var(--primary-bg);
+    width: 100%;
+}
+
+nav ul {
+    padding-bottom: 60px;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+td
+{
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 1px 50px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    background: #555;
+    border-radius: 4px;
+}
+
+img
+{
+        margin-top: 10px;
+        width: 120px ;
+        height: auto ;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "nav nav"
+        "homebio homebio"
+        "experience experience"
+        "projects projects"
+        "education_certifications education_certifications"
+        "contact_links contact_links"
+        "footer footer";
+    height: 100vh;
+    grid-gap: 0.5rem;
+    border-radius: var(--my-radius);
+    text-align: justify;
+
+}
+
+nav {
+    grid-area: nav;
+    background-color: var(--primary-bg);
+    padding: var(--my-padding);
+    border-radius: var(--my-radius);
+}
+
+#homebio {
+    margin-top: 70px;
+    grid-area: homebio;
+    background-color: var(--secondary-bg); /* Changed to white */
+    padding: var(--my-padding);
+    border-radius: var(--my-radius);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+#home,#experience1,#project1,#education,#contact{
+    margin-left: 20px;
+    
+}
+
+#bio,#experience2,#project2,#certifications,#links{
+    margin-right: 20px;
+}
+
+
+#experience {
+    grid-area: experience;
+    background-color: var(--secondary-bg); /* Changed to white */
+    padding: var(--my-padding);
+    border-radius: var(--my-radius);
+    display:Grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+#projects {
+    grid-area: projects;
+    background-color: var(--secondary-bg); /* Changed to white */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: var(--my-padding);
+    border-radius: var(--my-radius);
+    gap: 1rem;
+}
+
+.menu-icon
+{
+    display: none;
+}
+#contact_links{
+    grid-area: contact_links;
+    background-color: var(--secondary-bg); /* Changed to white */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: var(--my-padding);
+    border-radius: var(--my-radius);
+    gap: 1rem;
+}
+    
+
+#education_certifications{
+    grid-area: education_certifications;
+    background-color: var(--secondary-bg); /* Changed to white */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: var(--my-padding);
+    border-radius: var(--my-radius);
+    gap: 1rem;
+}
+    
+
+footer {
+    grid-area: footer;
+    background-color: var(--primary-bg);
+    color: white;
+    padding: var(--my-padding);
+    border-radius: var(--my-radius);
+    justify-content: center;      /* Centers content horizontally */
+    align-items: center;          /* Centers content vertically */
+    text-align: center;           /* Ensures text inside is centered */
+}
+
+
+@media screen and (max-width: 800px) { 
+    .container {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr; /* Switch to single column */
+        grid-template-areas:
+            "nav"
+            "homebio"
+            "experience"
+            "projects"
+            "education_certifications"
+            "contact_links"
+            "footer";
+    }
+
+    nav ul {
+        display: none;
+        text-align: center;
+    }
+
+    /* Show the menu when the active class is added */
+    nav ul.active {
+        display: block;
+    }
+
+    /* Show the hamburger icon on small screens */
+    .menu-icon {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Ensuring the sections take up full width and are centered */
+    .container > * {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    h1,h2
+    {
+        font-size: medium;
+    }
+
+    h3,h4
+    {
+        font-size: small;
+    }
+
+    #homebio, #experience, #projects, #education_certifications, #contact_links {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem; /* Adjust gap to give space between items */
+    }
+
+    /* Stack child divs inside sections */
+    #home, #experience1, #project1, #education, #contact, #bio, #experience2, #project2, #certifications, #links {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+    nav ul li {
+        display: block;
+        width: 100%;
+        padding: 5px 0;
+    }
+
+    /* Hide sidebar */
+    #sidebar {
+        display: none;
+    }
+}

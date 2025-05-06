@@ -1,0 +1,16 @@
+{
+  "name": "dharani_node",
+  "version": "1.0.0",
+  "description": "Backend for Wonders of the World app",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "author": "Dharani",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "mongodb": "^5.7.0"
+  }
+}
