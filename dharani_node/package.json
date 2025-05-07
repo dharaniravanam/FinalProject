@@ -2,9 +2,9 @@
   "name": "dharani_node",
   "version": "1.0.0",
   "description": "Backend for Wonders of the World app",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "dev": "node server.js"
+    "dev": "node index.js"
   },
   "author": "Dharani",
   "license": "ISC",

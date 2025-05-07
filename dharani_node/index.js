@@ -21,7 +21,6 @@ const server = http.createServer(async (req, res) => {
     }
 
     else if (req.url === '/api') {
-        res.setHeader('Access-Control-Allow-Origin', '*');
         const uri = "mongodb+srv://dharani:ravanam@cluster0.wngwft6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
         const client = new MongoClient(uri);
 
