@@ -34,8 +34,12 @@ export default {
      async fetchPlace(){
       const res = await fetch("https://finalproject-vhrw.onrender.com/api")
       const data = await res.json()
+
+      const sorted = data.sort((a, b) => a.placeId - b.placeId);
+
       console.log(data)
-      return data
+
+      return sorted;  
      }
 
   },
@@ -66,6 +70,7 @@ export default {
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background-image: url('bg.jpg');
 }
 .container {
   max-width: 400px;
