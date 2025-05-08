@@ -1,0 +1,162 @@
+[
+    {
+      "placeId": 9,
+      "placeName": "Angkor Wat",
+      "location": "Siem Reap, Cambodia",
+      "description": "Largest temple complex in the world.",
+      "bestTimeToVisit": "Nov–Feb",
+      "averageVisitors": "2.5 million/year",
+      "category": "Religious",
+      "nearbyAttractions": [
+        "Ta Prohm",
+        "Bayon Temple"
+      ],
+      "openingHours": "5 AM – 5:30 PM",
+      "builtOrDiscovered": "Built",
+      "imageUrl": "https://cdn.britannica.com/49/94449-050-ECB0E7C2/Angkor-Wat-temple-complex-Camb.jpg"
+    },
+    {
+      "placeId": 4,
+      "placeName": "Machu Picchu",
+      "location": "Cusco, Peru",
+      "description": "Incan citadel high in the Andes mountains.",
+      "bestTimeToVisit": "May–Sep",
+      "averageVisitors": "1.5 million/year",
+      "category": "Historical",
+      "nearbyAttractions": [
+        "Sacred Valley",
+        "Ollantaytambo"
+      ],
+      "openingHours": "6 AM – 5:30 PM",
+      "builtOrDiscovered": "Built",
+      "imageUrl": "https://www.railbookers.com/sites/railbookers/files/styles/hero/public/media/images/machu-picchu_168497345_web.jpeg?h=2f593d94&itok=L4vGk2f7"
+    },
+    {
+      "placeId": 5,
+      "placeName": "Great Barrier Reef",
+      "location": "Queensland, Australia",
+      "description": "World’s largest coral reef system, rich in biodiversity.",
+      "bestTimeToVisit": "Jun–Oct",
+      "averageVisitors": "2 million/year",
+      "category": "Natural",
+      "nearbyAttractions": [
+        "Whitsundays",
+        "Cairns"
+      ],
+      "openingHours": "Varies by operator",
+      "builtOrDiscovered": "Discovered",
+      "imageUrl": "https://www.aatkings.com/media/peciqcvf/cairns-region-great-barrier-reef-banner.jpg?center=0.5%2C0.5&format=webp&mode=crop&width=1920&height=600&quality=80"
+    },
+    {
+      "placeId": 10,
+      "placeName": "Niagara Falls",
+      "location": "Ontario, Canada / New York, USA",
+      "description": "Three massive waterfalls known for power and beauty.",
+      "bestTimeToVisit": "Jun–Aug",
+      "averageVisitors": "12 million/year",
+      "category": "Natural",
+      "nearbyAttractions": [
+        "Cave of the Winds",
+        "Skylon Tower"
+      ],
+      "openingHours": "24 hours (viewpoints)",
+      "builtOrDiscovered": "Discovered",
+      "imageUrl": "https://assets.simpleviewinc.com/simpleview/image/upload/crm/newyorkstate/Untitled-design-6-1-_6B31E24F-09A1-933D-A589D0CAD86B00AA-6b31e0afa905b54_6b33ab9e-dd5c-6147-bb7220ac4a5b87c5.jpg"
+    },
+    {
+      "placeId": 8,
+      "placeName": "Mount Fuji",
+      "location": "Honshu, Japan",
+      "description": "Japan's tallest volcano and spiritual symbol.",
+      "bestTimeToVisit": "Jul–Sep",
+      "averageVisitors": "300,000 climbers/year",
+      "category": "Natural",
+      "nearbyAttractions": [
+        "Lake Kawaguchi",
+        "Chureito Pagoda"
+      ],
+      "openingHours": "Open access (seasonal)",
+      "builtOrDiscovered": "Discovered",
+      "imageUrl": "https://storage.googleapis.com/ikidane/upload/spot_663_19737_e11bdbb938/spot_663_19737_e11bdbb938.jpg"
+    },
+    {
+      "placeId": 3,
+      "placeName": "Eiffel Tower",
+      "location": "Paris, France",
+      "description": "Iconic iron tower built for the 1889 World's Fair.",
+      "bestTimeToVisit": "Apr–Jun, Sep–Nov",
+      "averageVisitors": "7 million/year",
+      "category": "Cultural",
+      "nearbyAttractions": [
+        "Louvre Museum",
+        "Seine River Cruise"
+      ],
+      "openingHours": "9:30 AM – 11:45 PM",
+      "builtOrDiscovered": "Built",
+      "imageUrl": "https://media.timeout.com/images/106251733/image.jpg"
+    },
+    {
+      "placeId": 7,
+      "placeName": "Petra",
+      "location": "Ma'an, Jordan",
+      "description": "Ancient rock-cut city and UNESCO site.",
+      "bestTimeToVisit": "Mar–May, Sep–Nov",
+      "averageVisitors": "1 million/year",
+      "category": "Historical",
+      "nearbyAttractions": [
+        "Wadi Rum",
+        "Dead Sea"
+      ],
+      "openingHours": "6 AM – 6 PM",
+      "builtOrDiscovered": "Built",
+      "imageUrl": "https://www.historyhit.com/app/uploads/bis-images/5160776/Petra-788x537.jpg"
+    },
+    {
+      "placeId": 2,
+      "placeName": "Grand Canyon",
+      "location": "Arizona, USA",
+      "description": "Massive natural canyon carved by the Colorado River.",
+      "bestTimeToVisit": "Mar–May, Sep–Nov",
+      "averageVisitors": "5 million/year",
+      "category": "Natural",
+      "nearbyAttractions": [
+        "Horseshoe Bend",
+        "Antelope Canyon"
+      ],
+      "openingHours": "24 hours (some areas)",
+      "builtOrDiscovered": "Discovered",
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/83/4a/64/grand-canyon-national.jpg"
+    },
+    {
+      "placeId": 1,
+      "placeName": "Taj Mahal",
+      "location": "Agra, India",
+      "description": "Marble mausoleum built by Shah Jahan for Mumtaz Mahal.",
+      "bestTimeToVisit": "Oct–Mar",
+      "averageVisitors": "7–8 million/year",
+      "category": "Historical",
+      "nearbyAttractions": [
+        "Agra Fort",
+        "Mehtab Bagh"
+      ],
+      "openingHours": "6 AM – 6:30 PM",
+      "builtOrDiscovered": "Built",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/5130/production/_98548702_gettyimages-104559594.jpg"
+    },
+    {
+      "placeId": 6,
+      "placeName": "Colosseum",
+      "location": "Rome, Italy",
+      "description": "Roman amphitheater for gladiator battles and public events.",
+      "bestTimeToVisit": "Mar–Oct",
+      "averageVisitors": "7 million/year",
+      "category": "Historical",
+      "nearbyAttractions": [
+        "Roman Forum",
+        "Palatine Hill"
+      ],
+      "openingHours": "9 AM – 7 PM",
+      "builtOrDiscovered": "Built",
+      "imageUrl": "https://theromanguy.com/wp-content/uploads/Colosseo-TN-940-x-440-900x420.jpg"
+    }
+  ]

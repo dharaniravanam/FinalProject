@@ -2,13 +2,15 @@
     <div :class="(Place.builtOrDiscovered === 'Built') ? 'green' : 'red'">
       <h2>{{ Place.placeName }}</h2>
       <img :src="Place.imageUrl" :alt="`Image of ${Place.placeName}`" class="place-img" />
-      <p><strong>Location:</strong> {{ Place.location }}</p>
-      <p><strong>Category:</strong> {{ Place.category }}</p>
-      <p><strong>Description:</strong> {{ Place.description }}</p>
-      <p><strong>Best Time to Visit:</strong> {{ Place.bestTimeToVisit }}</p>
-      <p><strong>Average Visitors:</strong> {{ Place.averageVisitors }}</p>
-      <p><strong>Opening Hours:</strong> {{ Place.openingHours }}</p>
-      <p><strong>Type:</strong> {{ Place.builtOrDiscovered }}</p>
+      <div>
+        <p><strong>Location:</strong> {{ Place.location }}</p>
+        <p><strong>Category:</strong> {{ Place.category }}</p>
+        <p><strong>Description:</strong> {{ Place.description }}</p>
+        <p><strong>Best Time to Visit:</strong> {{ Place.bestTimeToVisit }}</p>
+        <p><strong>Average Visitors:</strong> {{ Place.averageVisitors }}</p>
+        <p><strong>Opening Hours:</strong> {{ Place.openingHours }}</p>
+        <p><strong>Type:</strong> {{ Place.builtOrDiscovered }}</p>
+      </div>
       <div v-if="Place.nearbyAttractions && Place.nearbyAttractions.length">
         <p><strong>Nearby Attractions:</strong></p>
         <ul>
@@ -64,7 +66,7 @@
   
   p {
     margin: 0.3em 0;
-    font-size: 20px;
+    font-size: 18px;
   }
   
   ul {

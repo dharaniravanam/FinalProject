@@ -2,7 +2,7 @@
     --my-radius: 5px;
     --my-padding: 5px;
     --primary-bg: #1096c369; /* Same as in the second CSS file */
-    --secondary-bg: #ffffff; /* White background for sections as in second CSS file */
+    --secondary-bg: #A6BACF; /* White background for sections as in second CSS file */
     --text-color: #333; /* Color for headings (as per the second CSS file) */
     --highlight-color: #555; /* Hover color for links */
 }
@@ -25,7 +25,7 @@ nav {
 }
 
 nav ul {
-    padding-bottom: 60px;
+    padding-bottom: 50px;
     padding: 10px;
     margin: 0;
     list-style: none;
@@ -45,11 +45,21 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #fff;
-    padding: 1px 50px;
+    padding: 1px 30px;
     display: inline-block;
     font-size: 16px;
 }
-
+#bio,#home,#experience1,#project1,#education,#contact,#experience2,#project2,#certifications,#links{
+    background-color:#E6EFF5;
+    border-radius: 8px;
+    padding: 15px;
+    
+}
+#home
+{
+    padding-top: 70px;
+    text-align: center;
+}
 nav ul li a:hover {
     background: #555;
     border-radius: 4px;
@@ -166,7 +176,7 @@ footer {
 }
 
 
-@media screen and (max-width: 800px) { 
+@media screen and (max-width: 900px) { 
     .container {
         display: grid;
         grid-template-rows: 1fr;
